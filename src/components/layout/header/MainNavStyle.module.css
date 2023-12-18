@@ -1,0 +1,44 @@
+.MainNavContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #F0E6D9;
+}
+.LogoDiv {
+}
+.Logo {
+  height: 3rem;
+}
+.NavLinksDiv {
+}
+.NavLinks {
+  display: grid;
+  grid-auto-flow: column;
+  list-style-type: none;
+}
+.NavLinks li {
+  padding: 25px;
+  font-size: 1em;
+  color: black;
+  cursor: pointer;
+}
+.NavLinks li:hover{
+    font-weight: 600;
+}
+.NavIcons {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 25px;
+  justify-self: end;
+}
+.NavIcons img {
+ height: 1.8em;
+}
+.NavIcons img:hover {
+  height: 2.1rem;
+}
